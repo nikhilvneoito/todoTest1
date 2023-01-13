@@ -1,0 +1,13 @@
+{
+  "name": "todoTest1",
+  "type": "ui-elements",
+  "source": {
+    "https": "https://github.com/nikhilvneoito/todoTest1",
+    "ssh": "git@github.com:nikhilvneoito/todoTest1.git"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "standAloneBlock": true
+}
